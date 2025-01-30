@@ -1,0 +1,62 @@
+body {
+    font-family: serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fdf4e3;
+    color: #333;
+}
+
+header {
+    background-color:#d4a5a5;
+    padding: 20px 10px;
+    color: white;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: white;
+}
+
+#galery .images img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.timer div {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.5em;
+}
+
+input, form button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    max-width: 300px;
+}
+
+form button {
+    background: #d4a5a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
