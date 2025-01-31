@@ -1,5 +1,7 @@
 function countdown() {
     const weddingDate = new Date("Febrero 15, 2025 00:00:00").getTime();
+
+function updatecountdown() {
     const now = new Date().getTime();
     const gap = weddingDate - now;
 
@@ -14,14 +16,14 @@ function countdown() {
     document.getElementById("hours").innerText = hours;
     document.getElementById("minutes").innerText = minutes;
     document.getElementById("seconds").innerText = seconds;
-    
-    countdown();
+}
+    updatecountdown();
     setInterval(countdown, 1000);
-
-    const form = document.getElementById("confirmation-form");
+}
+countdown();
+    document.getElementById("confirmation-form");
     form.addEventListener("submit", function(e) {
         e.preventDefault();
         alert("¡Muchas gracias por confirmar tu asistencia!");
         form.reset();
     });
-}  
