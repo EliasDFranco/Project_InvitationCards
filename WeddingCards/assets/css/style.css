@@ -28,7 +28,7 @@ section {
 }
 
 #galery .images img {
-    width: 30%;
+    width: 100%;
     margin: 10px;
     border-radius: 10px;
 }
@@ -59,4 +59,14 @@ footer {
     background: #333;
     color: white;
     padding: 10px;
+}
+
+.timer span {
+    font-weight: bold;
+    font-size: 2em;
+    transition: transform 0.2s ease-in-out;
+}
+
+.timer span:active {
+    transform: scale(1.2);
 }
