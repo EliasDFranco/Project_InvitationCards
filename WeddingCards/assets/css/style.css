@@ -3,12 +3,12 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #fdf4e3;
+    background-color: #f1e1ed;
     color: #333;
 }
 
 header {
-    background-color:#d4a5a5;
+    background-color:#D291BC;
     padding: 20px 10px;
     color: white;
 }
@@ -19,13 +19,26 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: auto;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:1em;
+    margin: 0 ;
+}
+
+
 section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background: white;
+    background: #e2c4da;
 }
 
 #galery .images img {
@@ -50,16 +63,16 @@ input, form button {
 }
 
 form button {
-    background: #d4a5a5;
+    background: #b76ba3;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 footer {
-    background: #333;
+    background: #b76ba3;
     color: white;
-    padding: 10px;
+    padding: 15px;
 }
 
 .timer span {
